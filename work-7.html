@@ -1,0 +1,91 @@
+<!-- <!DOCTYPE html> -->
+<html>
+<head>
+    <title>course</title>
+    <style type="text/css">
+        .box1 {
+            width: 50px;
+            height: 50px;
+            background-color: skyblue;
+            transition-property: all;
+            transition-duration: 5s;
+        }
+
+
+
+        .p1{
+
+            color: yellow;
+            font-size: 30px;
+            width: inherit;
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition-duration: 5ms;
+        }
+
+        .p1:hover::before {
+
+            content:   "老师 teacher";
+            font-size: 20px;
+
+        }
+
+        .box1:hover {
+            width: 300px;
+            height: 50px;
+            background-color: skyblue;
+
+        }
+
+        .box2 {
+            width: 50px;
+            height: 50px;
+            background-color: deeppink;
+            transition-property: all;
+            transition-duration: 1s;
+        }
+
+
+        .p2{
+
+            color: rgba(200, 89, 137, 1.0);
+            font-size: 30px;
+            width: inherit;
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition-duration: 5ms;
+        }
+
+        .p2:hover::before {
+
+            content:   "学生 students";
+            font-size: 20px;
+
+
+        }
+        .box2:active {
+            width: 300px;
+            height: 50px;
+            background-color: lightpink;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="box1">
+    <p class=p1>‍💻</p>
+</div>
+<div class="box2">
+    <p class=p2>👨‍💻</p>
+</div>
+</body>
+
+
+</html> 
